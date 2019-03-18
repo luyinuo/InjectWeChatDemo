@@ -95,7 +95,7 @@
 
 **由于LLDB加载时会自动加载依赖的第三方库，于是执行InjectObject对象中的load方法，完成方法交换，自己的代码被注入到WeChat的MachO文件中。至此微信的重签名和Framework注入完成。**
 
-##完整脚本
+## 完整脚本
 
 ```bash
 # Type a script or drag a script file from your workspace to insert its path.
