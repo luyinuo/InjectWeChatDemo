@@ -1,11 +1,11 @@
-# 动态库注入第三方APP真机调试
-
+[toc]
 
 ## 准备工作
 * 下载`PP助手` mac版，用来获取越狱砸壳应用。[下载地址](http://pro.25pp.com/pp_mac_ios)
 * 下载`yololib`小工具，用来把自己的动态库注入到MachO文件中。[下载地址](https://github.com/KJCracks/yololib)
 * 下载`class-dump`，用来导出MachO文件的头文件。[下载地址](http://stevenygard.com/projects/class-dump/)
 * 下载`MachOView`，用来查看MachO文件信息。[下载地址](https://sourceforge.net/projects/machoview/)
+
 
 ## 利用Xcode重签名第三方APP原理
 
