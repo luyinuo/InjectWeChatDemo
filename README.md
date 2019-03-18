@@ -1,6 +1,5 @@
 # 动态库注入第三方APP真机调试
 
-[toc]
 
 ## 准备工作
 * 下载`PP助手` mac版，用来获取越狱砸壳应用。[下载地址](http://pro.25pp.com/pp_mac_ios)
@@ -90,11 +89,11 @@
 	```
 	yololib "MachO文件地址" "framework相对于MachO的相对路径"
 	```
-可以使用MachOView软件查看，这时InjectFrameWork库已经注入到MachO文件中
+	可以使用MachOView软件查看，这时InjectFrameWork库已经注入到MachO文件中
 
 	![](media/15525297227722/15526313080211.jpg)
 
-	由于LLDB加载时会自动加载依赖的第三方库，于是执行InjectObject对象中的load方法，完成方法交换，自己的代码被注入到WeChat的MachO文件中。至此微信的重签名和Framework注入完成。
+**由于LLDB加载时会自动加载依赖的第三方库，于是执行InjectObject对象中的load方法，完成方法交换，自己的代码被注入到WeChat的MachO文件中。至此微信的重签名和Framework注入完成。**
 
 ##完整脚本
 
