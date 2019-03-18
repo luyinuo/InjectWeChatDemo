@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6100B22239EF7100C4C956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6100B12239EF7100C4C956 /* AppDelegate.m */; };
+		3C6100B52239EF7100C4C956 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6100B42239EF7100C4C956 /* ViewController.m */; };
+		3C6100B82239EF7100C4C956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6100B62239EF7100C4C956 /* Main.storyboard */; };
+		3C6100BA2239EF7400C4C956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6100B92239EF7400C4C956 /* Assets.xcassets */; };
+		3C6100BD2239EF7400C4C956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6100BB2239EF7400C4C956 /* LaunchScreen.storyboard */; };
+		3C6100C02239EF7400C4C956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6100BF2239EF7400C4C956 /* main.m */; };
+		3C69E399223A4E7500862DE6 /* InjectFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C69E397223A4E7400862DE6 /* InjectFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C69E39C223A4E7500862DE6 /* InjectFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69E395223A4E7400862DE6 /* InjectFrameWork.framework */; };
+		3C69E39D223A4E7500862DE6 /* InjectFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69E395223A4E7400862DE6 /* InjectFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3C69E3A6223A4EB700862DE6 /* InjectObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C69E3A4223A4EB700862DE6 /* InjectObject.h */; };
+		3C69E3A7223A4EB700862DE6 /* InjectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C69E3A5223A4EB700862DE6 /* InjectObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C69E39A223A4E7500862DE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6100A52239EF7100C4C956 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C69E394223A4E7400862DE6;
+			remoteInfo = InjectFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C69E3A1223A4E7500862DE6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3C69E39D223A4E7500862DE6 /* InjectFrameWork.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C6100AD2239EF7100C4C956 /* WeChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6100B02239EF7100C4C956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C6100B12239EF7100C4C956 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C6100B32239EF7100C4C956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C6100B42239EF7100C4C956 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C6100B72239EF7100C4C956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6100B92239EF7400C4C956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6100BC2239EF7400C4C956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C6100BE2239EF7400C4C956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6100BF2239EF7400C4C956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C69E395223A4E7400862DE6 /* InjectFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InjectFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C69E397223A4E7400862DE6 /* InjectFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectFrameWork.h; sourceTree = "<group>"; };
+		3C69E398223A4E7500862DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C69E3A4223A4EB700862DE6 /* InjectObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectObject.h; sourceTree = "<group>"; };
+		3C69E3A5223A4EB700862DE6 /* InjectObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6100AA2239EF7100C4C956 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C69E39C223A4E7500862DE6 /* InjectFrameWork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C69E392223A4E7400862DE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6100A42239EF7100C4C956 = {
+			isa = PBXGroup;
+			children = (
+				3C6100C72239F16400C4C956 /* TargetApp */,
+				3C6100AF2239EF7100C4C956 /* WeChartDemo */,
+				3C69E396223A4E7400862DE6 /* InjectFrameWork */,
+				3C6100AE2239EF7100C4C956 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6100AE2239EF7100C4C956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6100AD2239EF7100C4C956 /* WeChatDemo.app */,
+				3C69E395223A4E7400862DE6 /* InjectFrameWork.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6100AF2239EF7100C4C956 /* WeChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3C6100B02239EF7100C4C956 /* AppDelegate.h */,
+				3C6100B12239EF7100C4C956 /* AppDelegate.m */,
+				3C6100B32239EF7100C4C956 /* ViewController.h */,
+				3C6100B42239EF7100C4C956 /* ViewController.m */,
+				3C6100B62239EF7100C4C956 /* Main.storyboard */,
+				3C6100B92239EF7400C4C956 /* Assets.xcassets */,
+				3C6100BB2239EF7400C4C956 /* LaunchScreen.storyboard */,
+				3C6100BE2239EF7400C4C956 /* Info.plist */,
+				3C6100BF2239EF7400C4C956 /* main.m */,
+			);
+			path = WeChartDemo;
+			sourceTree = "<group>";
+		};
+		3C6100C72239F16400C4C956 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TargetApp;
+			sourceTree = "<group>";
+		};
+		3C69E396223A4E7400862DE6 /* InjectFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				3C69E397223A4E7400862DE6 /* InjectFrameWork.h */,
+				3C69E398223A4E7500862DE6 /* Info.plist */,
+				3C69E3A4223A4EB700862DE6 /* InjectObject.h */,
+				3C69E3A5223A4EB700862DE6 /* InjectObject.m */,
+			);
+			path = InjectFrameWork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C69E390223A4E7400862DE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C69E3A6223A4EB700862DE6 /* InjectObject.h in Headers */,
+				3C69E399223A4E7500862DE6 /* InjectFrameWork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C6100AC2239EF7100C4C956 /* WeChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6100C32239EF7400C4C956 /* Build configuration list for PBXNativeTarget "WeChatDemo" */;
+			buildPhases = (
+				3C6100A92239EF7100C4C956 /* Sources */,
+				3C6100AA2239EF7100C4C956 /* Frameworks */,
+				3C6100AB2239EF7100C4C956 /* Resources */,
+				3C6100C62239F12000C4C956 /* ShellScript */,
+				3C69E3A1223A4E7500862DE6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C69E39B223A4E7500862DE6 /* PBXTargetDependency */,
+			);
+			name = WeChatDemo;
+			productName = WeChartDemo;
+			productReference = 3C6100AD2239EF7100C4C956 /* WeChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C69E394223A4E7400862DE6 /* InjectFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C69E39E223A4E7500862DE6 /* Build configuration list for PBXNativeTarget "InjectFrameWork" */;
+			buildPhases = (
+				3C69E390223A4E7400862DE6 /* Headers */,
+				3C69E391223A4E7400862DE6 /* Sources */,
+				3C69E392223A4E7400862DE6 /* Frameworks */,
+				3C69E393223A4E7400862DE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InjectFrameWork;
+			productName = InjectFrameWork;
+			productReference = 3C69E395223A4E7400862DE6 /* InjectFrameWork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6100A52239EF7100C4C956 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lyn;
+				TargetAttributes = {
+					3C6100AC2239EF7100C4C956 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3C69E394223A4E7400862DE6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3C6100A82239EF7100C4C956 /* Build configuration list for PBXProject "WeChatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6100A42239EF7100C4C956;
+			productRefGroup = 3C6100AE2239EF7100C4C956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6100AC2239EF7100C4C956 /* WeChatDemo */,
+				3C69E394223A4E7400862DE6 /* InjectFrameWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6100AB2239EF7100C4C956 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6100BD2239EF7400C4C956 /* LaunchScreen.storyboard in Resources */,
+				3C6100BA2239EF7400C4C956 /* Assets.xcassets in Resources */,
+				3C6100B82239EF7100C4C956 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C69E393223A4E7400862DE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C6100C62239F12000C4C956 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#1.定义目标app的路径地址\nTARGET_APP_PATH=\"${SRCROOT}/TargetApp\"\nTARGET_TEMP_PATH=\"${SRCROOT}/temp\"\nTARGET_IPA_PATH=\"$TARGET_APP_PATH/*.ipa\"\n#echo \"目标地址：$TARGET_APP_PATH\"\n#2.定义打包app的地址\nPRODUCT_APP_PATH=\"${BUILT_PRODUCTS_DIR}/${TARGET_NAME}.app\"\n#echo \"product地址:$PRODUCT_APP_PATH\"\n#初始化Temp文件夹\nrm -rf $TARGET_TEMP_PATH\nmkdir -p $TARGET_TEMP_PATH\n#3.把目标app解压到工程根目录的temp文件夹下，拿到WeChat.app，替换打包地址的*.app文件\n\nunzip -oqq $TARGET_IPA_PATH -d $TARGET_TEMP_PATH \nTEMP_APP_PATH=$(set -- \"$TARGET_TEMP_PATH/Payload/\"*.app;echo \"$1\")\nrm -rf ${PRODUCT_APP_PATH}\nmkdir -p ${PRODUCT_APP_PATH}\ncp -rf \"$TEMP_APP_PATH/\" $PRODUCT_APP_PATH\n\n#4.删除Plugins和WatchAPP个人证书没法签名的Extention\nrm -rf \"$PRODUCT_APP_PATH/PlugIns\"\nrm -rf \"$PRODUCT_APP_PATH/Watch\"\n\n#5.更新info.plist文件 CFBundleIdentifier 更改目标app的包名为自己创建工程的包名\necho \"更改包名：$PRODUCT_BUNDLE_IDENTIFIER\"\n\n/usr/libexec/PlistBuddy -c \"set :CFBundleIdentifier $PRODUCT_BUNDLE_IDENTIFIER\" \"$PRODUCT_APP_PATH/info.plist\"\n\n#6.给Mach-o文件执行权限\nAPP_BINARY=`plutil -convert xml1 -o - $PRODUCT_APP_PATH/Info.plist|grep -A1 Exec|tail -n1|cut -f2 -d\\>|cut -f1 -d\\<`\necho \"Mach-O名称:$APP_BINARY\"\n#chmod +x \"$PRODUCT_APP_PATH/$APP_BINARY\"\n\n#7.重签名FrameWorks\nPRODUCT_APP_FRAMEWORKS_PATH=\"$PRODUCT_APP_PATH/Frameworks\"\nif [ -d \"$PRODUCT_APP_FRAMEWORKS_PATH\" ];\nthen\nfor FRAMEWORK in \"$PRODUCT_APP_FRAMEWORKS_PATH/\"*\ndo\n/usr/bin/codesign --force --sign \"$EXPANDED_CODE_SIGN_IDENTITY\" \"$FRAMEWORK\"\ndone\nfi\n\necho \"开始注入\"\n# 需要注入的动态库的路径  \nINJECT_FRAMEWORK_RELATIVE_PATH=\"Frameworks/InjectFrameWork.framework/InjectFrameWork\"\n#\n#8.通过工具实现注入\nyololib \"$PRODUCT_APP_PATH/$APP_BINARY\" \"$INJECT_FRAMEWORK_RELATIVE_PATH\"\necho \"注入完成\"\n\n\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6100A92239EF7100C4C956 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6100B52239EF7100C4C956 /* ViewController.m in Sources */,
+				3C6100C02239EF7400C4C956 /* main.m in Sources */,
+				3C6100B22239EF7100C4C956 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C69E391223A4E7400862DE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C69E3A7223A4EB700862DE6 /* InjectObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C69E39B223A4E7500862DE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C69E394223A4E7400862DE6 /* InjectFrameWork */;
+			targetProxy = 3C69E39A223A4E7500862DE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C6100B62239EF7100C4C956 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6100B72239EF7100C4C956 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C6100BB2239EF7400C4C956 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6100BC2239EF7400C4C956 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6100C12239EF7400C4C956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C6100C22239EF7400C4C956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6100C42239EF7400C4C956 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZT37ZAB399;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = WeChartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duia.WeChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.duia.all_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3C6100C52239EF7400C4C956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZT37ZAB399;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = WeChartDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duia.WeChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.duia.all_dev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3C69E39F223A4E7500862DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DK983279QN;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = InjectFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duia.InjectFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C69E3A0223A4E7500862DE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = InjectFrameWork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.duia.InjectFrameWork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6100A82239EF7100C4C956 /* Build configuration list for PBXProject "WeChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6100C12239EF7400C4C956 /* Debug */,
+				3C6100C22239EF7400C4C956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6100C32239EF7400C4C956 /* Build configuration list for PBXNativeTarget "WeChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6100C42239EF7400C4C956 /* Debug */,
+				3C6100C52239EF7400C4C956 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C69E39E223A4E7500862DE6 /* Build configuration list for PBXNativeTarget "InjectFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C69E39F223A4E7500862DE6 /* Debug */,
+				3C69E3A0223A4E7500862DE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6100A52239EF7100C4C956 /* Project object */;
+}
