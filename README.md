@@ -84,7 +84,8 @@
 4. 把Framework注入到MachO文件中，编译时会把InjectFramework打包到xxx.app/Frameworks目录下
 
 	![](media/15525297227722/15526306014351.jpg)
-但是被替换的MachO文件中默认是不会包含自己新建的InjectFrameWork库的，需要手动添加到WeChat的MachO文件中，这里用到工具yololib(准备工作中提到的)，为了可以直接任何地方使用它，需要先手动拷贝到系统用户环境中 `/usr/local/bin/`
+
+	但是被替换的MachO文件中默认是不会包含自己新建的InjectFrameWork库的，需要手动添加到WeChat的MachO文件中，这里用到工具yololib(准备工作中提到的)，为了可以直接任何地方使用它，需要先手动拷贝到系统用户环境中 `/usr/local/bin/`
 
 	```
 	yololib "MachO文件地址" "framework相对于MachO的相对路径"
